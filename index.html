@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My YouTube Classes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet" />
+
+
+    <style>
+        .raleway-normal {
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        .inter-normal {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #121212;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 75px;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        h3 {
+            color: white;
+            font-size: 30px;
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin: 0 auto;
+            padding: 20px;
+            gap: 50px 80px;
+            align-items: center;
+            justify-content: space-around;
+            /* max-width: 1400px; */
+            /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+        }
+
+        .card {
+            background-color: #1f1b24;
+            width: 100%;
+            padding: 20px;
+            border-radius: 20px;
+            transition: transform 0.2s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            color: white;
+            background-color: #332940;
+            transform: scale(1.05);
+            box-shadow: 0 5px 20px rgba(146, 93, 142, 0.8);
+        }
+
+        .card iframe {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            /* border: none; */
+            /* display: block; */
+        }
+
+
+        button {
+            border: 0px;
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            padding: 10px 30px;
+            border-radius: 10px;
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        button:hover {
+            font-size: 25px;
+            background-color: red;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer {
+            font-size: 50px;
+            color: white;
+            margin: 20px auto;
+        }
+
+        /* responsive styles */
+
+        @media screen and (max-width: 576px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .card-container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            footer {
+                font-size: 20px;
+            }
+        }
+
+        @media screen and (min-width: 576px) and (max-width: 992px) {
+            h1 {
+                font-size: 50px;
+            }
+
+            .card-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            footer {
+                font-size: 35px;
+            }
+        }
+    </style>
+</head>
+
+<body class="raleway-normal">
+    <header>
+        <h1>Classes for NSU Admissions by Privatune</h1>
+    </header>
+    <main>
+        <div class="card-container">
+            <div class="card">
+                <iframe src="https://www.youtube.com/embed/OpoG8pRxXZA?si=_OW5Xk59geiHOBJQ" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h3>07/04/2025</h3>
+                <button>
+                    <a href="https://youtu.be/OpoG8pRxXZA?si=gIyKl3JLq3ADPGs2" target="_blank">Watch the full video
+                    </a>
+                </button>
+            </div>
+            <div class="card">
+                <iframe src="https://www.youtube.com/embed/V2nbzsT87SU?si=7we3fCgz48Fp3YaF" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h3>07/04/2025</h3>
+                <button>
+                    <a href="https://youtu.be/V2nbzsT87SU?si=0NpCQwqBRsVe5Dkx" target="_blank">Watch the full video</a>
+                </button>
+            </div>
+            <div class="card">
+                <iframe src="https://www.youtube.com/embed/Q3Blr0AHMGA?si=mQAmRqk8ZwJ-4QAp" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h3>08/04/2025</h3>
+                <button>
+                    <a href="https://youtu.be/Q3Blr0AHMGA?si=Hz0qQ7-k82xTHg4Z" target="_blank">Completed</a>
+                </button>
+            </div>
+            <div class="card">
+                <iframe src="https://www.youtube.com/embed/y57-CFZC47o?si=tNwrlR6NMpEGaeBG" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h3>09/04/2025</h3>
+                <button>
+                    <a href="https://youtu.be/y57-CFZC47o?si=0t_HHzXUnyVY4sgD" target="_blank">Watch the full video</a>
+                </button>
+            </div>
+            <div class="card">
+                <iframe src="https://www.youtube.com/embed/nuHvfkC5Ce0?si=zFYxrbO-46hMBheG" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h3>10/04/2025</h3>
+                <button>
+                    <a href="https://youtu.be/nuHvfkC5Ce0?si=kLYBTod5SF3UdX_G" target="_blank">Watch the full video</a>
+                </button>
+            </div>
+            <div class="card">
+                <iframe src="https://www.youtube.com/embed/BFvWfFufCYw?si=J4_PXHckPgB3YyJh" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h3>23/05/2025</h3>
+                <button><a href="https://youtu.be/BFvWfFufCYw?si=r2rckypS6b861DS6" target="_blank"">Watch the full video</a></button>
+            </div>
+            <div class=" card">
+                        <iframe src="https://www.youtube.com/embed/ibW8lueI0bg?si=zOQULNJ5wsQTImRF"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <h3>23/05/2025</h3>
+                        <button><a href="https://youtu.be/ibW8lueI0bg?si=OIbiL9DuY6ru7g6y" target="_blank">Watch the
+                                full video</a>
+                        </button>
+            </div>
+            <div class="card">
+                <iframe src="https://www.youtube.com/embed/m1zplxv5rb0?si=uakdw2fHeCTB2kRO" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h3>25/06/2025</h3>
+                <button>
+                    <a href="https://youtu.be/m1zplxv5rb0?si=Ff3ZgINQEQwcFQ-3" target="_blank">Watch the full video</a>
+                </button>
+            </div>
+            <div class="card">
+                <iframe src="https://www.youtube.com/embed/LNtsYTmI_lE?si=ycZ_DON7ginGi90u" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h3>11/07/2025</h3>
+                <button>
+                    <a href="https://youtu.be/LNtsYTmI_lE?si=lmQNe31bspXmZtUS&t=4360" target="_blank">Watch the full
+                        video</a>
+                </button>
+            </div>
+            <div class="card">
+                <iframe src="https://www.youtube.com/embed/67huA3wgaO4?si=CyUyv-lNuUWxkjJu" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h3>13/07/2025</h3>
+                <button>Watch the full video</button>
+            </div>
+            <div class=" card">
+                <iframe src="https://drive.google.com/file/d/1BJlDkGPJdQZzD4tGHL4btQfTplcfe9lD/preview"
+                    allow="autoplay"></iframe>
+                <h3>13/07/2025</h3>
+                <button>
+                    <a href="https://drive.google.com/file/d/1BJlDkGPJdQZzD4tGHL4btQfTplcfe9lD/view?usp=sharing"
+                        target="_blank">Watch the full pdf</a>
+                </button>
+            </div>
+            <div class="card">
+                <iframe src="https: //www.youtube.com/embed/Cj6CLs-y-2g?si=oYMwI8427lpZL5_W"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h3>Suggestion</h3>
+                <button>
+                    <a href="https://youtu.be/Cj6CLs-y-2g?si=BmoTOdAK6cYMrsci" target="_blank">Watch the full
+                        video</a>
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h6>&copy; All rights are reserved.</h6>
+    </footer>
+</body>
+
+</html>
